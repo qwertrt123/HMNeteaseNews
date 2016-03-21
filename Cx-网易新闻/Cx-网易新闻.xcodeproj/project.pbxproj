@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44072B171C96D1A100DB7169 /* HMNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 44072B161C96D1A100DB7169 /* HMNews.m */; };
+		44072B1A1C96D1C600DB7169 /* HMNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44072B191C96D1C600DB7169 /* HMNewsController.m */; };
+		44072B1D1C96D1E100DB7169 /* HMNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44072B1C1C96D1E100DB7169 /* HMNewsCell.m */; };
+		44072B1F1C96D1F200DB7169 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44072B1E1C96D1F200DB7169 /* News.storyboard */; };
+		44282BFB1C958C17003AF6B4 /* HMNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 44282BFA1C958C17003AF6B4 /* HMNetworkTool.m */; };
+		44282BFF1C958F4F003AF6B4 /* HMHeadLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 44282BFE1C958F4F003AF6B4 /* HMHeadLine.m */; };
+		44282C021C9598C0003AF6B4 /* HMHeadLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44282C011C9598C0003AF6B4 /* HMHeadLineController.m */; };
+		44282C061C959980003AF6B4 /* HMLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44282C051C959980003AF6B4 /* HMLoopView.m */; };
+		44282C091C959CCF003AF6B4 /* HMLoopFlowLayOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 44282C081C959CCF003AF6B4 /* HMLoopFlowLayOut.m */; };
+		44282C0C1C95A58F003AF6B4 /* HMLoopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44282C0B1C95A58F003AF6B4 /* HMLoopCell.m */; };
+		44282C0F1C95B5A3003AF6B4 /* HMWeakTimerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 44282C0E1C95B5A3003AF6B4 /* HMWeakTimerTarget.m */; };
 		44B7348F1C958193007D8148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7348E1C958193007D8148 /* main.m */; };
 		44B734921C958193007D8148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B734911C958193007D8148 /* AppDelegate.m */; };
-		44B734951C958193007D8148 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B734941C958193007D8148 /* ViewController.m */; };
 		44B734981C958193007D8148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B734961C958193007D8148 /* Main.storyboard */; };
 		44B7349A1C958193007D8148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B734991C958193007D8148 /* Assets.xcassets */; };
 		44B7349D1C958193007D8148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B7349B1C958193007D8148 /* LaunchScreen.storyboard */; };
@@ -18,12 +28,31 @@
 
 /* Begin PBXFileReference section */
 		3E8C87E802DC45032752C0F5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		44072B151C96D1A100DB7169 /* HMNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNews.h; sourceTree = "<group>"; };
+		44072B161C96D1A100DB7169 /* HMNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNews.m; sourceTree = "<group>"; };
+		44072B181C96D1C600DB7169 /* HMNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNewsController.h; sourceTree = "<group>"; };
+		44072B191C96D1C600DB7169 /* HMNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNewsController.m; sourceTree = "<group>"; };
+		44072B1B1C96D1E100DB7169 /* HMNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNewsCell.h; sourceTree = "<group>"; };
+		44072B1C1C96D1E100DB7169 /* HMNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNewsCell.m; sourceTree = "<group>"; };
+		44072B1E1C96D1F200DB7169 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		44282BF91C958C17003AF6B4 /* HMNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNetworkTool.h; sourceTree = "<group>"; };
+		44282BFA1C958C17003AF6B4 /* HMNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNetworkTool.m; sourceTree = "<group>"; };
+		44282BFD1C958F4F003AF6B4 /* HMHeadLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHeadLine.h; sourceTree = "<group>"; };
+		44282BFE1C958F4F003AF6B4 /* HMHeadLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHeadLine.m; sourceTree = "<group>"; };
+		44282C001C9598C0003AF6B4 /* HMHeadLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHeadLineController.h; sourceTree = "<group>"; };
+		44282C011C9598C0003AF6B4 /* HMHeadLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHeadLineController.m; sourceTree = "<group>"; };
+		44282C041C959980003AF6B4 /* HMLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLoopView.h; sourceTree = "<group>"; };
+		44282C051C959980003AF6B4 /* HMLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMLoopView.m; sourceTree = "<group>"; };
+		44282C071C959CCF003AF6B4 /* HMLoopFlowLayOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLoopFlowLayOut.h; sourceTree = "<group>"; };
+		44282C081C959CCF003AF6B4 /* HMLoopFlowLayOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMLoopFlowLayOut.m; sourceTree = "<group>"; };
+		44282C0A1C95A58F003AF6B4 /* HMLoopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLoopCell.h; sourceTree = "<group>"; };
+		44282C0B1C95A58F003AF6B4 /* HMLoopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMLoopCell.m; sourceTree = "<group>"; };
+		44282C0D1C95B5A3003AF6B4 /* HMWeakTimerTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWeakTimerTarget.h; sourceTree = "<group>"; };
+		44282C0E1C95B5A3003AF6B4 /* HMWeakTimerTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWeakTimerTarget.m; sourceTree = "<group>"; };
 		44B7348A1C958193007D8148 /* Cx-网易新闻.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cx-网易新闻.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B7348E1C958193007D8148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44B734901C958193007D8148 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44B734911C958193007D8148 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		44B734931C958193007D8148 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		44B734941C958193007D8148 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		44B734971C958193007D8148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44B734991C958193007D8148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44B7349C1C958193007D8148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,6 +73,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44072B141C96D16500DB7169 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				44072B151C96D1A100DB7169 /* HMNews.h */,
+				44072B161C96D1A100DB7169 /* HMNews.m */,
+				44072B181C96D1C600DB7169 /* HMNewsController.h */,
+				44072B191C96D1C600DB7169 /* HMNewsController.m */,
+				44072B1B1C96D1E100DB7169 /* HMNewsCell.h */,
+				44072B1C1C96D1E100DB7169 /* HMNewsCell.m */,
+				44072B1E1C96D1F200DB7169 /* News.storyboard */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		44282BF81C958BF7003AF6B4 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				44282BF91C958C17003AF6B4 /* HMNetworkTool.h */,
+				44282BFA1C958C17003AF6B4 /* HMNetworkTool.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		44282BFC1C958F3B003AF6B4 /* HeadLine */ = {
+			isa = PBXGroup;
+			children = (
+				44282BFD1C958F4F003AF6B4 /* HMHeadLine.h */,
+				44282BFE1C958F4F003AF6B4 /* HMHeadLine.m */,
+				44282C001C9598C0003AF6B4 /* HMHeadLineController.h */,
+				44282C011C9598C0003AF6B4 /* HMHeadLineController.m */,
+			);
+			name = HeadLine;
+			sourceTree = "<group>";
+		};
+		44282C031C959966003AF6B4 /* LoopView */ = {
+			isa = PBXGroup;
+			children = (
+				44282C0D1C95B5A3003AF6B4 /* HMWeakTimerTarget.h */,
+				44282C0E1C95B5A3003AF6B4 /* HMWeakTimerTarget.m */,
+				44282C041C959980003AF6B4 /* HMLoopView.h */,
+				44282C051C959980003AF6B4 /* HMLoopView.m */,
+				44282C071C959CCF003AF6B4 /* HMLoopFlowLayOut.h */,
+				44282C081C959CCF003AF6B4 /* HMLoopFlowLayOut.m */,
+				44282C0A1C95A58F003AF6B4 /* HMLoopCell.h */,
+				44282C0B1C95A58F003AF6B4 /* HMLoopCell.m */,
+			);
+			name = LoopView;
+			sourceTree = "<group>";
+		};
 		44B734811C958193007D8148 = {
 			isa = PBXGroup;
 			children = (
@@ -65,10 +143,12 @@
 		44B7348C1C958193007D8148 /* Cx-网易新闻 */ = {
 			isa = PBXGroup;
 			children = (
+				44072B141C96D16500DB7169 /* News */,
+				44282C031C959966003AF6B4 /* LoopView */,
+				44282BFC1C958F3B003AF6B4 /* HeadLine */,
+				44282BF81C958BF7003AF6B4 /* Tool */,
 				44B734901C958193007D8148 /* AppDelegate.h */,
 				44B734911C958193007D8148 /* AppDelegate.m */,
-				44B734931C958193007D8148 /* ViewController.h */,
-				44B734941C958193007D8148 /* ViewController.m */,
 				44B734961C958193007D8148 /* Main.storyboard */,
 				44B734991C958193007D8148 /* Assets.xcassets */,
 				44B7349B1C958193007D8148 /* LaunchScreen.storyboard */,
@@ -166,6 +246,7 @@
 				44B7349D1C958193007D8148 /* LaunchScreen.storyboard in Resources */,
 				44B7349A1C958193007D8148 /* Assets.xcassets in Resources */,
 				44B734981C958193007D8148 /* Main.storyboard in Resources */,
+				44072B1F1C96D1F200DB7169 /* News.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,9 +305,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44B734951C958193007D8148 /* ViewController.m in Sources */,
+				44282C0F1C95B5A3003AF6B4 /* HMWeakTimerTarget.m in Sources */,
+				44282BFF1C958F4F003AF6B4 /* HMHeadLine.m in Sources */,
+				44282C091C959CCF003AF6B4 /* HMLoopFlowLayOut.m in Sources */,
+				44282C021C9598C0003AF6B4 /* HMHeadLineController.m in Sources */,
 				44B734921C958193007D8148 /* AppDelegate.m in Sources */,
+				44072B171C96D1A100DB7169 /* HMNews.m in Sources */,
 				44B7348F1C958193007D8148 /* main.m in Sources */,
+				44282BFB1C958C17003AF6B4 /* HMNetworkTool.m in Sources */,
+				44282C0C1C95A58F003AF6B4 /* HMLoopCell.m in Sources */,
+				44072B1D1C96D1E100DB7169 /* HMNewsCell.m in Sources */,
+				44072B1A1C96D1C600DB7169 /* HMNewsController.m in Sources */,
+				44282C061C959980003AF6B4 /* HMLoopView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
